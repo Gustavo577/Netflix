@@ -83,14 +83,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 17:32:43</sys_created_on>
         <sys_id>50df2d4d8377e210f87d92d6feaad338</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Rc Review</sys_name>
         <sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope>
         <sys_update_name>sc_cat_item_producer_50df2d4d8377e210f87d92d6feaad338</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-03 20:14:32</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:10:31</sys_updated_on>
         <table_name>x_1537751_netflix_review</table_name>
         <taxonomy_topic/>
         <template/>
@@ -98,7 +98,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>26</version>
+        <version>45</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
