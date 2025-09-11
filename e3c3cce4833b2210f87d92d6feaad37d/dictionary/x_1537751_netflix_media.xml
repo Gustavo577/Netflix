@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5fcaf7a483bb6210f87d92d6feaad317" label="Media" max_length="40" name="x_1537751_netflix_media" type="collection">
         <element label="Release year" max_length="4" name="release_year" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element label="Production" max_length="255" name="production" type="string"/>
         <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
