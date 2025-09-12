@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Query Movies With Reviews</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var returnArr = [];
+
+    var grMedia = new GlideRecord("x_1537751_netflix_media");
+    grMedia.query();
+    while (grMedia.next()) {
+        var movieOBJ = {
+            "title": grMedia.getValue("title"),
+            "release_year": grMedia.getValue("release_year"),
+            "avarage_rating": grMedia.getValue("avarage_rating"),
+            "reviews": []
+        };
+        var grReview = new GlideRecord("x_1537751_netflix_review");
+        grReview.addQuery("media", grMedia.getValue("sys_id"));
+        grReview.query();
+        while (grReview.next()) {
+            movieOBJ["reviews"].push({
+                "number": grReview.getValue("number"),
+                "rating": grReview.getValue("rating"),
+                "description": grReview.getValue("description"),
+            });
+        }
+       returnArr.push(movieOBJ);
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1537751_netflix/software_x/query_movies_with_reviews</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/query_movies_with_reviews</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 14:33:49</sys_created_on>
+        <sys_id>d14a93f783bba610f87d92d6feaad3fb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Query Movies With Reviews</sys_name>
+        <sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope>
+        <sys_update_name>sys_ws_operation_d14a93f783bba610f87d92d6feaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 16:13:12</sys_updated_on>
+        <web_service_definition display_value="Software X">6f9997b783bba610f87d92d6feaad320</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d14a93f783bba610f87d92d6feaad3fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 14:33:48</sys_created_on>
+        <sys_id>b14edbbb83bba610f87d92d6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 14:33:48</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
