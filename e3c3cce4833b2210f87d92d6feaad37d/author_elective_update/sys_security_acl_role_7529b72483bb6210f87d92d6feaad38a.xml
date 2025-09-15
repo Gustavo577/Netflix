@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 14:10:58</sys_created_on>
+        <sys_id>7529b72483bb6210f87d92d6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1537751_netflix_director.x_1537751_netflix.administrator</sys_name>
+        <sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope>
+        <sys_security_acl display_value="x_1537751_netflix_director">b129b72483bb6210f87d92d6feaad387</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7529b72483bb6210f87d92d6feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 14:10:58</sys_updated_on>
+        <sys_user_role display_value="x_1537751_netflix.administrator" name="x_1537751_netflix.administrator">afc3cce4833b2210f87d92d6feaad3cb</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</application>
+        <file_path/>
+        <instance_id>b9a99ec3fb3706d8363cf633beefdc96</instance_id>
+        <instance_name>dev286916</instance_name>
+        <name>sys_security_acl_role_7529b72483bb6210f87d92d6feaad38a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-02 14:10:58</sys_created_on><sys_id>7529b72483bb6210f87d92d6feaad38a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1537751_netflix_director.x_1537751_netflix.administrator</sys_name><sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package><sys_policy/><sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope><sys_security_acl display_value="x_1537751_netflix_director">b129b72483bb6210f87d92d6feaad387</sys_security_acl><sys_update_name>sys_security_acl_role_7529b72483bb6210f87d92d6feaad38a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-02 14:10:58</sys_updated_on><sys_user_role display_value="x_1537751_netflix.administrator" name="x_1537751_netflix.administrator">afc3cce4833b2210f87d92d6feaad3cb</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-808653292</payload_hash>
+        <record_name>x_1537751_netflix_director.x_1537751_netflix.administrator</record_name>
+        <reverted_from/>
+        <source>b51cc860837b2210f87d92d6feaad373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 14:10:58</sys_created_on>
+        <sys_id>f129b72483bb6210f87d92d6feaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990ac444dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 14:10:58</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7929b724f7bb6210ad576dea6940c08c</update_guid>
+        <update_guid_history>7929b724f7bb6210ad576dea6940c08c:-808653292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1537751_netflix_director.x_1537751_netflix.administrator">8f499fb883043210f87d92d6feaad37e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 16:45:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>02b167879d354e5880ca98122ddeefc1</sys_id>
+        <sys_metadata>7529b72483bb6210f87d92d6feaad38a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1537751_netflix_director.x_1537751_netflix.administrator</sys_name>
+        <sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope>
+        <sys_scope_delete display_value="">944e904192b44d609249935c4e428400</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_7529b72483bb6210f87d92d6feaad38a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_7529b72483bb6210f87d92d6feaad38a">f129b72483bb6210f87d92d6feaad3a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 16:45:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

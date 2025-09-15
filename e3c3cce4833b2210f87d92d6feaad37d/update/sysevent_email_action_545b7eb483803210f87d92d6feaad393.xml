@@ -31,14 +31,17 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>triggered</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello, integration for register ${Sys ID: ${sys_id} is Integration state: ${integration_state}</p>]]></message_html>
+        <message_html><![CDATA[<p><span data-teams="true">The ${title} ${type} failed to integrate.</span></p>
+<p><span data-teams="true">The error was: ${integration_error_message}</span></p>
+<p><span data-teams="true">Please, check the media to see more about this error</span></p>
+<p><span data-teams="true"><a title="click here" href="/now/nav/ui/classic/params/target/x_1537751_netflix_media.do?sys_id=${sys_id}">Click here</a></span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Integration Failed</name>
@@ -52,7 +55,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Integration</subject>
+        <subject>${title}  - integration failure</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -60,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>545b7eb483803210f87d92d6feaad393</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Integration Failed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package>
@@ -68,7 +71,7 @@
         <sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope>
         <sys_update_name>sysevent_email_action_545b7eb483803210f87d92d6feaad393</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 14:48:57</sys_updated_on>
+        <sys_updated_on>2025-09-15 16:23:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
