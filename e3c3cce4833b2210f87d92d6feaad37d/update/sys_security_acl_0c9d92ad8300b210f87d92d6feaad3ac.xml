@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow report_view for records in x_1537751_netflix_review, for users with roles (x_1537751_netflix.moderator, x_1537751_netflix.administrator).</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1537751_netflix_media</name>
+        <operation display_value="report_view">0997ab83733303005978e4b9cdf6a7b9</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 20:20:26</sys_created_on>
+        <sys_id>0c9d92ad8300b210f87d92d6feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1537751_netflix_media</sys_name>
+        <sys_package display_value="Netflix" source="x_1537751_netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">e3c3cce4833b2210f87d92d6feaad37d</sys_scope>
+        <sys_update_name>sys_security_acl_0c9d92ad8300b210f87d92d6feaad3ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 20:20:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
